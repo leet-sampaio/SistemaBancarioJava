@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar Main.java",
+			"type": "shell",
+			"command": "javac -cp \".;banco/lib/gson-2.10.1.jar\" banco/src/Main.java",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Compilar Main.java",
+			"type": "shell",
+			"command": "javac -cp \".;banco/lib/gson-2.10.1.jar\" banco/src/Main.java",
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
