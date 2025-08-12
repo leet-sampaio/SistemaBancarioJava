@@ -208,10 +208,6 @@ O projeto apresenta relacionamento entre as entidades, como por exemplo, o vínc
 
 A classe `Log.java` registra eventos importantes do sistema, como erros e operações críticas. As informações são armazenadas em arquivos `.txt`, permitindo o rastreamento de falhas e a análise do comportamento do sistema.
 
-## Uso do ChatGPT
-
-O ChatGPT foi utilizado como ferramenta de apoio durante o desenvolvimento do projeto, fornecendo orientação inicial sobre estruturação do sistema, sugestões de boas práticas de programação orientada a objetos, auxílio no processo de debug, correções pontuais e especialmente na escolha e implementação da persistência de dados via JSON, com recomendação do uso da biblioteca Gson.
-
 ## Superclasse
 
 O projeto conta com uma superclasse abstrata chamada `Usuario`, que serve como base para as classes `Adm`, `Gerente` e `Cliente`. Essa superclasse centraliza atributos comuns como `nome`, `cpf`, `email` e `senha`, além de métodos compartilhados, como `login()`. Ela também define o método abstrato `exibirMenu()`, que é sobrescrito por cada subclasse com a lógica específica para o tipo de usuário. Isso promove reaproveitamento de código, organização hierárquica e facilita a aplicação de polimorfismo.
